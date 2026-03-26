@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNest Repairs - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo">TechNest Repairs</div>
+            <div class="nav-links">
+                <a href="#">Shop by Category</a>
+                <a href="#">Find a Service</a>
+                <a href="#">Own a Store</a>
+                <a href="#">Business Accounts</a>
+            </div>
+        </nav>
+        <nav class="main-nav">
+            <div class="search-bar">
+                <input type="text" placeholder="Find Batteries and Products">
+                <button>🔍</button>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="user-actions">
+                <a href="#">Login</a>
+                <div class="cart-icon">🛒 <span id="cart-count">0</span></div>
+                <button id="toggle-menu">☰</button>
+            </div>
+        </nav>
+        <div class="promo-banner">
+            <p>$10 Off Device Repair - Schedule Appointment Online - <a href="#">See Details</a></p>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Cell Phone Repair Services</h1>
+            <p>Your phone keeps you connected—until it breaks. TechNest Repairs fixes all major brands, including iPhones, Samsung, and Google. From cracked screens to dead batteries, we handle it all. Start with a free diagnostic or book online.</p>
+            <div class="repair-selector">
+                <h2>Start Your Repair by Selecting Your Phone</h2>
+                <div class="dropdowns">
+                    <select id="brand">
+                        <option value="">Choose Brand</option>
+                        <option value="apple">Apple</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="google">Google</option>
+                    </select>
+                    <select id="model">
+                        <option value="">Choose Model</option>
+                        <option value="iphone-14">iPhone 14</option>
+                        <option value="galaxy-s23">Galaxy S23</option>
+                        <option value="pixel-7">Pixel 7</option>
+                    </select>
+                    <button class="cta-button">Start Repair</button>
+                </div>
+            </div>
+            <div class="support-option">
+                <h3>Not Sure What's Wrong?</h3>
+                <p>Our trained experts are here to help diagnose and fix any issue your phone may be facing.</p>
+                <a href="contact.html" class="cta-button">Get Support</a>
+            </div>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="images/gallery1.jpg" alt="Phone Repair">
+                    <h3>Phone Repair</h3>
+                    <p>Fix screens, batteries, and more.</p>
+                    <button class="info-btn">Info</button>
+                    <div class="service-info" style="display: none;">
+                        <p>We offer comprehensive phone repairs including screen replacement, battery swaps, and software troubleshooting for all major brands.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="images/gallery2.jpeg" alt="IT Support">
+                    <h3>IT Support</h3>
+                    <p>Setup and troubleshooting.</p>
+                    <button class="info-btn">Info</button>
+                    <div class="service-info" style="display: none;">
+                        <p>Our IT support team provides setup assistance, network troubleshooting, and hardware diagnostics for your devices.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="images/gallery3.jpg" alt="Laptop Repair">
+                    <h3>Laptop Repair</h3>
+                    <p>Speed up or fix your device.</p>
+                    <button class="info-btn">Info</button>
+                    <div class="service-info" style="display: none;">
+                        <p>Expert laptop repairs including hardware upgrades, speed optimization, and screen or keyboard fixes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"Fixed my phone in an hour!"</p>
+                    <p>- Jane D. <span>★★★★★</span></p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Amazing IT support!"</p>
+                    <p>- Mark S. <span>★★★★☆</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@technestrepairs.com</p>
+                <p>Phone: +123-456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-icons"><img src="images/card-payment.png" alt="Payment"></div>
+        <button class="live-chat">💬 Live Chat</button>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

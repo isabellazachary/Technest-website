@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNest Repairs - Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="logo">TechNest Repairs</div>
+            <div class="nav-links">
+                <a href="#">Shop by Category</a>
+                <a href="#">Find a Service</a>
+                <a href="#">Own a Store</a>
+                <a href="#">Business Accounts</a>
+            </div>
+        </nav>
+        <nav class="main-nav">
+            <div class="search-bar">
+                <input type="text" placeholder="Find Batteries and Products">
+                <button>🔍</button>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="user-actions">
+                <a href="#">Login</a>
+                <div class="cart-icon">🛒 <span id="cart-count">0</span></div>
+                <button id="toggle-menu">☰</button>
+            </div>
+        </nav>
+        <div class="promo-banner">
+            <p>$10 Off Device Repair - Schedule Appointment Online - <a href="#">See Details</a></p>
+        </div>
+    </header>
+    <main>
+        <div class="shop-controls">
+            <select id="sort-by">
+                <option value="price-asc">Price: Low to High</option>
+                <option value="price-desc">Price: High to Low</option>
+            </select>
+            <select id="category">
+                <option value="all">All Categories</option>
+                <option value="accessories">Accessories</option>
+                <option value="chargers">Chargers</option>
+            </select>
+        </div>
+        <div class="product-container">
+            <div class="product">
+                <img src="images/product5.jpg" alt="Phone Case">
+                <h3>Phone Case</h3>
+                <p class="price">$15.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="info-btn">Info</button>
+                <div class="product-info" style="display: none;">
+                    <p>Durable phone case designed to protect your device from drops and scratches.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/product4.jpg" alt="Headphones">
+                <h3>Headphones</h3>
+                <p class="price">$25.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="info-btn">Info</button>
+                <div class="product-info" style="display: none;">
+                    <p>High-quality headphones with noise cancellation and long battery life.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/product3.jpg" alt="Charger Set Bag with Earphones">
+                <h3>Charger Set Bag with Earphones</h3>
+                <p class="price">$35.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="info-btn">Info</button>
+                <div class="product-info" structure="display: none;">
+                    <p>Complete set including a charger, earphones, and a convenient storage bag.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/product2.jpg" alt="Screen Protector">
+                <h3>Screen Protector</h3>
+                <p class="price">$10.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="info-btn">Info</button>
+                <div class="product-info" style="display: none;">
+                    <p>Crystal-clear screen protector to safeguard your phone screen from scratches.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/product1.webp" alt="Charger">
+                <h3>Charger</h3>
+                <p class="price">$20.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="info-btn">Info</button>
+                <div class="product-info" style="display: none;">
+                    <p>Fast-charging USB charger compatible with all major phone brands.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@technestrepairs.com</p>
+                <p>Phone: +123-456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="payment-icons">
+            <i class="fab fa-cc-visa payment-icon" title="Visa"></i>
+            <i class="fab fa-cc-mastercard payment-icon" title="MasterCard"></i>
+            <i class="fab fa-cc-paypal payment-icon" title="PayPal"></i>
+        </div>
+        <button class="live-chat">💬 Live Chat</button>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
